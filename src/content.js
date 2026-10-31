@@ -1,8 +1,6 @@
 export const LANGS = ['ca', 'es', 'en']
 
 export const links = {
-  email: 'hector_alvarez_perez@outlook.es',
-  github: 'https://github.com/HectorAlvarezPerez',
   linkedin: 'https://www.linkedin.com/in/hector-alvarez-perez',
 }
 

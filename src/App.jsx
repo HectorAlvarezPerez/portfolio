@@ -78,7 +78,6 @@ export default function App() {
         </div>
 
         <p className="corner bl contact-links">
-          <a href={links.github} target="_blank" rel="noreferrer">GitHub ↗</a>
           <a href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
         </p>
 
@@ -138,13 +137,9 @@ export default function App() {
         <Section label={t.sections.contact}>
           <div className="contact-body">
             <span className="contact-intro">{t.contactIntro}</span>
-            <a className="contact-mail" href={`mailto:${links.email}`}>
-              {links.email}
+            <a className="contact-link" href={links.linkedin} target="_blank" rel="noreferrer">
+              LinkedIn ↗
             </a>
-            <p className="contact-links">
-              <a href={links.github} target="_blank" rel="noreferrer">GitHub ↗</a>
-              <a href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
-            </p>
           </div>
         </Section>
       </main>

@@ -321,13 +321,12 @@ ul {
   color: var(--fg-3);
 }
 
-.contact-mail {
-  overflow-wrap: anywhere;
+.contact-link {
   border-bottom: 1px solid var(--fg-3);
   transition: border-color 0.2s;
 }
 
-.contact-mail:hover {
+.contact-link:hover {
   border-color: var(--fg);
 }
 
